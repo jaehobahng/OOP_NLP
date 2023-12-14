@@ -1,0 +1,16 @@
+README.md
+setup.py
+matcher/__init__.py
+matcher/name_matcher.py
+matcher.egg-info/PKG-INFO
+matcher.egg-info/SOURCES.txt
+matcher.egg-info/dependency_links.txt
+matcher.egg-info/top_level.txt
+matcher/bin/__init__.py
+matcher/bin/main.py
+matcher/eval/__init__.py
+matcher/eval/eval.py
+matcher/utils/__init__.py
+matcher/utils/parse_tsv.py
+tests/__init__.py
+tests/test_matcher.py
