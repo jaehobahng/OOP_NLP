@@ -1,5 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/JTgqWp7D)
+# What is this project about?
+This project is about practicing two aspects.
 
+1. Object Oriented Programming
+2. Natural Language Processing.
+
+The objective is as follows:
+We will retrieve data from https://query.wikidata.org/ to retrieve two columns of data that represent the same name, but the first column will be the unified name and the second column will be the name written in different forms. For example my name, JaeHo Bahng, will be written on the first column and the second column could be names such as J. Bahng, Jaeho bang, JHo Bhang, and other forms of my name. The goal of this project is to create various algorithms that give us a quantified measurement that tells us how similar the second column and the first column is for each row.
+![](./images/dataset.png)
+
+
+### OOP aspect
+
+
+### NLP aspect
 
 # matcher.name_matcher.py
 This package contains all the scoring methods that compare the Person label and the Alias label for each row to bring out a score of how similar the two strings are and a value of TRUE or FALSE depending on the score and the given threshold.
